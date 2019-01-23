@@ -1,0 +1,221 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.bg-top-nav {
+    background: rgb(0, 145, 51);
+    height: 40px;
+    border-radius: 0px;
+    font-size: 0.8em;
+}
+
+.top-brand-logo {
+    background: rgb(252, 252, 252);
+}
+
+.my-bg-dark {
+    background: rgb(76, 60, 97);
+}
+
+.jumbotron {
+    background-image: url(../img/home-page.png);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 80%;
+}
+
+.jumbo-heading {
+    line-height: 1.3em;
+}
+
+.my-jumbotron-container {
+    background: rgba(76, 60, 97, 0.6);
+    color: rgb(252, 252, 252);
+    padding: 30px;
+    padding-left: 40px;
+}
+
+.my-btn-jumbotron {
+    border-radius: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+.my-btn-jumbotron:hover {
+    font-weight: bold;
+    background: #fff;
+    border-radius: 3px;
+    border: 3px solid rgb(76, 60, 97);
+    color: rgb(76, 60, 97);
+}
+
+#home-card {
+    padding: 20px;
+    border-color: #ECF0F1;
+    border-width: 2px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px 3px #AEB6BF;
+}
+
+#services {
+    background: #4C3C61;
+}
+
+.service-card {
+    height: 300px;
+    padding: 15px;
+    border-radius: 0;
+    border-width: 4px;
+}
+
+.home-card-heading {
+    color: rgb(0, 145, 51);
+}
+
+.img-card-home {
+    height: 10px;
+}
+
+.category {
+    padding: 100px;
+}
+
+/* IMAGE HOVER EFFECT WITH CARD */
+
+.my-hover-card {
+    position: relative;
+}
+
+.image {
+    display: block;
+    height: 300px;
+    height: auto;
+}
+
+.overlay-primary {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(76, 60, 97, 0.8);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.overlay-secondary {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 145, 51, 0.8);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.my-hover-card:hover .overlay-primary {
+    bottom: 0;
+    height: 100%;
+}
+
+.my-hover-card:hover .overlay-secondary {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.my-btn-img-card-primary {
+    background: #fff;
+    border: solid 2px #4C3C61;
+    color: #4C3C61;
+}
+
+.my-btn-img-card-secondary {
+    background: #fff;
+    border: solid 2px rgba(0, 145, 51, 0.8);
+    color: rgb(0, 145, 51);
+}
+
+/* IMAGE HOVER EFFECT WITH CARD */
+
+.wtitle {
+    padding: 80px;
+    opacity: 1;
+}
+
+/* Parallax */
+.para-div {
+    background: rgb(51, 51, 53);
+}
+
+#my-parallax {
+    background: url(../img/grocery-store-img.jpg);
+    opacity: .60;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my-btn-primary-block {
+    background: #4C3C61;
+    color: #fff;
+    border-radius: 0;
+    width: 100%;
+}
+
+/* Parallax */
+
+/* Footer */
+.footer-top {
+    padding: 15px;
+    background: rgb(108, 98, 148);
+}
+
+.footer-bottom {
+    padding: 15px;
+    background: rgb(64, 168, 101);
+}
+
+.footer-font {
+    font-size: 90%;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.footer-icons {
+    width: 30px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.my-btn-thired {
+    color: #fff;
+    background: #000;
+    border-radius: 0;
+    width: 100px;
+}
+
+.my-btn-thired:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* Footer */
