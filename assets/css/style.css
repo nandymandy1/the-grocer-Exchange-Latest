@@ -211,7 +211,7 @@
 }
 
 #my-parallax {
-    background: url(../img/grocery-store-img.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)), url(../img/grocery-store-img.jpg);
     padding: 60px;
     background-attachment: fixed;
     background-position: center;
