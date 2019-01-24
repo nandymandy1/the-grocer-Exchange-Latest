@@ -23,7 +23,8 @@
 }
 
 .jumbo-heading {
-    line-height: 1.3em;
+    line-height: 200%;
+    font-size: 90%;
 }
 
 .my-jumbotron-container {
