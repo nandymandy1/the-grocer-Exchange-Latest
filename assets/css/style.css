@@ -32,7 +32,6 @@
     color: rgb(252, 252, 252);
     padding: 50px;
     padding-left: 40px;
-    width: 70%;
 }
 
 .my-btn-jumbotron {
@@ -280,4 +279,58 @@ footer {
 .client-speech {
     line-height: 2.5em;
     font-size: 1.1em;
+}
+
+.contact-form-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    background: #fff;
+    border-color: #ECF0F1;
+    border-width: 1px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 10px rgb(223, 224, 224);
+    box-shadow: 5px 5px 10px rgb(223, 224, 224);
+}
+
+.contact-form-card .form-control:focus {
+    box-shadow: none;
+    border-color: rgb(0, 145, 51);
+}
+
+.quick-contact {
+    background: rgb(245, 245, 245);
+    padding: 5px;
+    border-radius: 3px;
+    border: rgb(248, 248, 248) solid;
+}
+
+.quick-contact-text {
+    height: 50px;
+}
+
+.quick-btn {
+    height: 45px;
+    font-size: 0.8em;
+    background: #fff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(0, 145, 51);
+    border-color: #ECF0F1;
+    border-width: 2px;
+    border-radius: 20px;
+    box-shadow: 100px #AEB6BF;
+}
+
+.quick-btn:hover {
+    background: rgb(0, 145, 51);
+    color: #fff;
+}
+
+#store-opt-para-bottom {
+    font-size: 0.9em;
 }
