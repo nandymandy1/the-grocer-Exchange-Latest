@@ -28,10 +28,11 @@
 }
 
 .my-jumbotron-container {
-    background: rgba(76, 60, 97, 0.6);
+    background: rgba(76, 60, 97, 0.4);
     color: rgb(252, 252, 252);
-    padding: 30px;
+    padding: 50px;
     padding-left: 40px;
+    width: 70%;
 }
 
 .my-btn-jumbotron {
@@ -155,18 +156,30 @@
     margin-top: 0px;
 }
 
-.category-card-img {
-    font-size: 0.85em;
-    border-radius: 0;
+.img-col {
+    padding-top: 50px;
+    padding: 30px;
     height: 300px;
-    border-color: #fff;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.8)), url(../img/grocer-shop-1.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    font-size: 0.85em;
+    border: 10px solid #fff;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 150%;
 }
 
 .bg-purple {
-    font-size: 0.85em;
-    height: 231px;
+    padding-top: 50px;
+    padding: 30px;
+    font-size: 0.9em;
+    height: 300px;
     background: #4C3C61;
-    border-radius: 0;
+    border: 10px solid #fff;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 150%;
 }
 
 .category-btn {
@@ -175,10 +188,15 @@
 }
 
 .bg-green {
+    padding-top: 50px;
+    padding: 30px;
     font-size: 0.85em;
-    height: 231px;
+    height: 300px;
     background: rgb(0, 145, 51);
-    border-radius: 0;
+    border: 10px solid #fff;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 150%;
 }
 
 /* Category Cards */
