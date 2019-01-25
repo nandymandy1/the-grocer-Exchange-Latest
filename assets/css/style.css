@@ -222,7 +222,9 @@
     background: #4C3C61;
     color: #fff;
     border-radius: 0;
-    width: 40%;
+    width: 50%;
+    padding: 10px;
+    font-size: 0.85em;
 }
 
 .my-btn-primary-block:hover {
