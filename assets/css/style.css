@@ -49,6 +49,8 @@
 }
 
 #home-card {
+    font-size: 0.87em;
+    width: 65%;
     padding: 20px;
     border-color: #ECF0F1;
     border-width: 2px;
