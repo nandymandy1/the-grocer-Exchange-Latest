@@ -298,6 +298,7 @@ footer {
 
 .contact-form-card .form-control:focus {
     box-shadow: none;
+    border-width: 2px;
     border-color: rgb(0, 145, 51);
 }
 
@@ -331,6 +332,11 @@ footer {
     color: #fff;
 }
 
-#store-opt-para-bottom {
-    font-size: 0.9em;
+
+ul.store-opt {
+    list-style-type: none;
+}
+
+#store-opt-container {
+    font-size: 0.85em;
 }
