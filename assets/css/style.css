@@ -405,3 +405,10 @@ ul.store-opt {
     margin-top: -70px;
     height: auto;
 }
+
+@media only screen and (max-width: 1080px) {
+    #members-contact {
+        margin-top: 10px;
+        height: auto;
+    }
+}
