@@ -290,18 +290,6 @@
     font-size: 16px;
 }
 
-.block h2 {
-    position: relative;
-    display: block;
-    text-align: center;
-    margin: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    /*font-size: 10vw;*/
-    color: white;
-    font-weight: 400;
-}
-
 .img-parallax {
     height: auto;
     z-index: -1;
@@ -310,20 +298,6 @@
     left: 50%;
     transform: translate(-50%, 0);
     pointer-events: none
-}
-
-
-#my-parallax {
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1));
-    /*
-    linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)), url(../img/sign_up.jpg);
-    */
-    padding: 60px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100%;
-    min-width: 100%;
 }
 
 .my-btn-primary-block {
